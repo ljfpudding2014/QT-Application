@@ -1,0 +1,2 @@
+HARQS
+LTE features.
