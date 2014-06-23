@@ -1,0 +1,266 @@
+分类	产品需求项名称	功能是否合入（是/否）		功能是否启用 （是/否）		基线产品需求项编号		特殊说明
+		PC侧	板侧	PC侧	板侧	PC侧	板侧	
+"短消息
+业务"	编辑短消息	是	NA	是	NA	PR-SW-PC-SMS-0010-01	NA	
+	发送短消息	是	是	是	是	PR-SW-PC-SMS-0010-02	PR-SW-FW-SMS-0010-01	
+	接收短消息	是	是	是	是	PR-SW-PC-SMS-0010-03	PR-SW-FW-SMS-0010-02	
+	阅读短消息	是	是	是	是	PR-SW-PC-SMS-0010-04	PR-SW-FW-SMS-0010-03	
+	删除短消息	是	是	是	是	PR-SW-PC-SMS-0010-05	PR-SW-FW-SMS-0010-04	
+	短消息满处理	是	是	是	是	PR-SW-PC-SMS-0010-06	PR-SW-FW-SMS-0010-05	Mac对差异性需求未实现
+	并发功能	是	是	是	是	PR-SW-PC-SMS-0010-07	PR-SW-FW-SMS-0010-06	
+	显示存储短消息数量	是	是	是	是	PR-SW-PC-SMS-0010-08	PR-SW-FW-SMS-0010-07	
+	短消息移动	是	是	是	是	PR-SW-PC-SMS-0010-09	PR-SW-FW-SMS-0010-08	P82F平台不支持
+	短消息复制	是	是	是	是	PR-SW-PC-SMS-0010-10	PR-SW-FW-SMS-0010-09	
+	短消息转发	是	是	是	是	PR-SW-PC-SMS-0010-11	PR-SW-FW-SMS-0010-10	
+	短消息排序	是	是	是	是	PR-SW-PC-SMS-0010-12	PR-SW-FW-SMS-0010-11	P82F平台不支持
+	短消息导出导入	是	NA	是	NA	PR-SW-PC-SMS-0010-13	PR-SW-FW-SMS-0010-12	Linux未实现
+	短消息搜索	是	是	是	是	PR-SW-PC-SMS-0010-14	PR-SW-FW-SMS-0010-13	"Windows未实现
+以国内项目11位号码，国际项目8位号码进行匹配。"
+	短消息定时发送	是	是	是	是	PR-SW-PC-SMS-0010-15	PR-SW-FW-SMS-0010-14	P10A \P18D\P82F平台不支持
+	短消息签名	是	NA	是	NA	PR-SW-PC-SMS-0010-16	NA	P10A \P18D\P82F平台不支持
+	短消息聊天	是	NA	是	NA	PR-SW-PC-SMS-0010-17	NA	P10A \P18D平台不支持
+	短消息状态报告	是	是	是	是	PR-SW-PC-SMS-0010-18	PR-SW-FW-SMS-0010-15	"默认值为关闭
+P18D PCUI上支持每发一条级联短消息只收一个状态报告，以级联短消息最后一条短消息的发送状态作为整条短消息的状态报告。P10A、SDK UI、P18E三期PCUI上目前不支持，是按照多条短消息处理，上报多个状态报告。"
+"电话本
+功能"	电话本记录排序	是	是	是	是	PR-SW-PC-PB-0020-01	PR-SW-FW-PB-0020-01	P82F平台不支持
+	查看电话本个人记录	是	是	是	是	PR-SW-PC-PB-0020-02	PR-SW-FW-PB-0020-02	
+	查看电话本群组记录	是	NA	是	NA	PR-SW-PC-PB-0020-03	NA	
+	编辑电话本个人记录	是	是	是	是	PR-SW-PC-PB-0020-04	PR-SW-FW-PB-0020-03	姓名、号码1
+	编辑电话本群组名称	是	NA	是	NA	PR-SW-PC-PB-0020-05	NA	P18D及P18E UI上支持群组
+	新建电话本个人记录	是	是	是	是	PR-SW-PC-PB-0020-06	PR-SW-FW-PB-0020-04	姓名、号码1
+	新建电话本群组	是	NA	是	NA	PR-SW-PC-PB-0020-07	NA	
+	删除电话本个人记录	是	是	是	是	PR-SW-PC-PB-0020-08	PR-SW-FW-PB-0020-05	
+	删除电话本群组记录	是	NA	是	NA	PR-SW-PC-PB-0020-09	NA	
+	搜索电话本个人记录	是	是	是	是	PR-SW-PC-PB-0020-10	PR-SW-FW-PB-0020-06	
+	电话本记录复制	是	是	是	是	PR-SW-PC-PB-0020-11	PR-SW-FW-PB-0020-07	
+	电话本记录移动	是	是	是	是	PR-SW-PC-PB-0020-12	PR-SW-FW-PB-0020-08	"Windows未实现
+Mac未实现
+P82F平台不支持"
+	发短消息给电话本中的个人及群组	是	是	是	是	PR-SW-PC-PB-0020-13	PR-SW-FW-PB-0020-09	
+	发彩信给电话本中的个人及群组	是	是	否	否	PR-SW-PC-PB-0020-14	PR-SW-FW-PB-0020-10	P18E未实现
+	拨电话给电话本中的个人及群组	是	是	否	否	PR-SW-PC-PB-0020-15	PR-SW-FW-PB-0020-11	"Windows未实现
+P18E未实现"
+	从短消息保存电话号码到电话本	是	是	是	是	PR-SW-PC-PB-0020-16	PR-SW-FW-PB-0020-12	
+	从彩信保存电话号码到电话本	是	是	否	否	PR-SW-PC-PB-0020-17	PR-SW-FW-PB-0020-13	P18E未实现
+	查询电话本容量信息	是	是	是	是	PR-SW-PC-PB-0020-18	PR-SW-FW-PB-0020-14	
+	把电话内容导出到OutLook中	是	是	是	是	PR-SW-PC-PB-0020-19	PR-SW-FW-PB-0020-15	"打开：Windows
+关闭：Mac、Linux（系统不支持）"
+	把电话内容从OutLook中导入	是	是	是	是	PR-SW-PC-PB-0020-20	PR-SW-FW-PB-0020-16	"打开：Windows
+关闭：Mac、Linux（系统不支持）"
+	把电话本内容导出到文件中	是	是	是	是	PR-SW-PC-PB-0020-21	PR-SW-FW-PB-0020-17	
+	从导出的电话本文件导入到电话本中	是	NA	否	NA	PR-SW-PC-PB-0020-22	PR-SW-FW-PB-0020-18	"Windows未实现
+Linux未实现"
+数据业务	网络数据速率	NA	是	NA	是	NA	PR-SW-FW-DS-0030-01	"GPRS (Class 10)
+EDGE (Class 12)
+WCDMA (DL384/UL384 Kbps)
+HSDPA (Category 8)
+HSUPA (Category 6)
+HSPA+ (Category 14)
+CDMA2000 1X Release 0 (上下行速率153.6Kbps)
+1xEV-DO Release 0 (下行速率2.4Mbps，上行速率153.6Kbps)
+1xEV-DO Revision A (下行速率3.1Mbps，上行速率1.8Mbps)
+3xEV-DO Revision B (下行速率9.3Mbps，上行速率5.4Mbps)"
+	连接网络	是	是	是	是	PR-SW-PC-DS-0030-01	PR-SW-FW-DS-0030-02	默认支持RAS
+	拨号速率上报	是	是	是	是	PR-SW-PC-DS-0030-02	PR-SW-FW-DS-0030-03	
+	断开网络	是	是	是	是	PR-SW-PC-DS-0030-03	PR-SW-FW-DS-0030-04	
+	自动连接网络	是	是	是	是	PR-SW-PC-DS-0030-04	PR-SW-FW-DS-0030-05	"Mac：5次，Linux：3次
+P10A \P18D平台不支持"
+	网络重连功能	是	是	是	是	PR-SW-PC-DS-0030-05	PR-SW-FW-DS-0030-06	P10A \P18D平台不支持
+	配置文件选择	是	NA	是	NA	PR-SW-PC-DS-0030-06	NA	"Windows未实现
+Mac未实现
+允许不同UI平台APN下拉列表实现方式存在差异"
+	配置文件导入导出	是	NA	否	NA	PR-SW-PC-DS-0030-07	NA	"未实现
+P82F平台不支持"
+设置功能	安全设置	是	是	是	是	PR-SW-PC-SF-0040-01	PR-SW-FW-SF-0040-01	PIN/PUK码
+	连接设置	是	是	是	是	PR-SW-PC-SF-0040-02	PR-SW-FW-SF-0040-02	APN等，DNS设置未实现
+	短消息设置	是	是	是	是	PR-SW-PC-SF-0040-03	PR-SW-FW-SF-0040-03	"短消息中心号码等
+P82F平台不支持新短消息保存位置设置，不支持不插Modem时，备份和恢复PC侧短消息及电话本记录。"
+	彩信设置	是	是	否	否	PR-SW-PC-SF-0040-04	PR-SW-FW-SF-0040-04	
+	提示音设置	是	NA	是	NA	PR-SW-PC-SF-0040-05	NA	Mac、Linux：只支持wav格式
+	找网设置	是	是	是	是	PR-SW-PC-SF-0040-06	PR-SW-FW-SF-0040-05	Auto（3G Pref）
+	系统设置	是	NA	是	NA	PR-SW-PC-SF-0040-07	NA	"Linux关闭
+P10A \P18D\P82F平台不支持"
+	预置参数设置	是	是	是	是	PR-SW-PC-SF-0040-08	PR-SW-FW-SF-0040-06	第一次使用数据卡时的默认设置
+	恢复出厂值	是	是	否	否	PR-SW-PC-SF-0040-09	PR-SW-FW-SF-0040-07	P10A \P18D\P82F平台不支持
+	升级设置 	是	NA	否	NA	PR-SW-PC-SF-0040-10	NA	Mac未实现
+	SIM Lock功能	否	否	否	否	PR-SW-PC-SF-0040-11	PR-SW-FW-SF-0040-08	P18E未实现，定制功能
+帮助功能	帮助	是	NA	是	NA	PR-SW-PC-HF-0050-01	NA	
+显示功能	网络信号强度显示	是	是	是	是	PR-SW-PC-DP-0060-01	PR-SW-FW-DP-0050-01	
+	网络连接显示	是	是	是	是	PR-SW-PC-DP-0060-02	PR-SW-FW-DP-0050-02	
+	网络类型显示	是	是	是	是	PR-SW-PC-DP-0060-03	PR-SW-FW-DP-0050-03	
+	运营商名称显示	是	是	是	是	PR-SW-PC-DP-0060-04	PR-SW-FW-DP-0050-04	
+	数据卡是否插入显示	是	NA	是	NA	PR-SW-PC-DP-0060-05	NA	
+	(U)SIM卡状态显示	是	是	是	是	PR-SW-PC-DP-0060-06	PR-SW-FW-DP-0050-05	
+	漫游状态显示	是	是	是	是	PR-SW-PC-DP-0060-07	PR-SW-FW-DP-0050-06	
+	PS/CS域显示	否	否	否	否	PR-SW-PC-DP-0060-08	PR-SW-FW-DP-0050-07	为提升用户体验，从UI页面上去掉PS/CS域信息显示。
+	主菜单	是	NA	是	NA	PR-SW-PC-DP-0060-09	NA	
+	UI启动界面	是	NA	是	NA	PR-SW-PC-DP-0060-10	NA	"打开：Windows、Linux
+关闭：Mac（不支持）"
+	最小化时默认显示	是	NA	是	NA	PR-SW-PC-DP-0060-11	NA	"打开：Windows，未实现
+关闭：Mac、Linux（不支持）"
+	最小化时收到短信显示	是	NA	是	NA	PR-SW-PC-DP-0060-12	NA	"打开：Windows
+关闭：Mac、Linux（不支持）
+Mac有新短信提示窗口"
+	最小化时网络断开显示	是	NA	是	NA	PR-SW-PC-DP-0060-13	NA	"打开：Windows
+关闭：Mac、Linux（不支持）"
+	最小化时在关于中显示软件版本	是	NA	否	NA	PR-SW-PC-DP-0060-14	NA	"打开：Windows
+关闭：Mac、Linux（不支持）"
+	LED指示灯显示	NA	是	NA	是	NA	PR-SW-FW-DP-0050-08	"红色——未注册到网络(适用三色灯）
+绿色常亮——注册到2G网络（适用三色灯）
+绿色闪烁——注册到2G网络并有数据业务（适用三色灯）
+蓝色常亮——注册到3G网络（适用三色灯）
+蓝色闪烁——注册到3G网络并有数据业务（适用三色灯）
+红色——未注册到网络（适用双色灯）
+绿色常亮——注册到网络（适用双色灯）
+绿色闪烁——注册到网络并有数据业务（适用双色灯）"
+上网记录功能	查看上网记录	是	NA	是	NA	PR-SW-PC-RD-0070-01	NA	
+	删除上网记录	是	NA	是	NA	PR-SW-PC-RD-0070-02	NA	
+	上网速率图形化	是	NA	是	NA	PR-SW-PC-RD-0070-03	NA	Linux未实现
+	上网记录页面上的提示语	是	NA	是	NA	PR-SW-PC-RD-0070-04	NA	
+	自动上网流量提醒功能	是	NA	否	NA	PR-SW-PC-RD-0070-05	NA	
+安装功能	自安装功能	是	是	是	是	PR-SW-PC-IF-0080-01	PR-SW-FW-IF-0060-01	Mac不支持
+	卸载功能	是	NA	是	NA	PR-SW-PC-IF-0080-02	NA	
+	端口变换功能	是	是	是	是	PR-SW-PC-IF-0080-03	PR-SW-FW-IF-0060-02	切换前光盘；切换后Modem、AT、Diag、光盘、T卡
+升级功能	自动升级版本检测	是	NA	是	NA	PR-SW-PC-AU-0090-01	NA	Mac：“用户取消升级，提示用户多少天以后再次检查”未实现
+	自动升级过程支持	是	是	是	是	PR-SW-PC-AU-0090-02	PR-SW-FW-AU-0070-01	
+	快速下载支持	是	是	否	否	PR-SW-PC-AU-0090-03	PR-SW-FW-AU-0070-02	未实现
+	升级包需求	是	NA	是	NA	PR-SW-PC-AU-0090-04	NA	
+	用户数据的保护	是	NA	是	NA	PR-SW-PC-AU-0090-05	NA	Windows、Mac部分参数支持
+	支持下载异常恢复机制	NA	是	NA	是	NA	PR-SW-FW-AU-0070-03	Windows部分实现
+诊断功能	诊断信息	是	是	是	是	PR-SW-PC-DI-0100-01	PR-SW-FW-DI-0080-01	基线只针对必选信息
+打印日志功能	打印日志	是	NA	是	NA	PR-SW-PC-PL-0110-01	NA	Windows未实现
+USSD业务	增加USSD指令 	是	NA	否	NA	PR-SW-PC-USSD-0120-01	NA	
+	删除已有的USSD指令	是	NA	否	NA	PR-SW-PC-USSD-0120-02	NA	
+	修改已有USSD指令	是	NA	否	NA	PR-SW-PC-USSD-0120-03	NA	
+	默认的USSD指令	是	NA	否	NA	PR-SW-PC-USSD-0120-04	NA	
+	发送USSD指令	是	是	否	否	PR-SW-PC-USSD-0120-05	PR-SW-FW-USSD-0090-01	
+STK业务	发送STK指令	否	是	否	否	PR-SW-PC-STK-0130-01	PR-SW-FW-STK-0100-01	
+飞行模式	将设备状态设为飞行模式	是	是	否	否	PR-SW-PC-AE-0140-01	PR-SW-FW-AE-0110-01	P18E未实现
+	关闭飞行模式	是	是	否	否	PR-SW-PC-AE-0140-02	PR-SW-FW-AE-0110-02	P18E未实现
+	初始化时检测设备状态	是	是	否	否	PR-SW-PC-AE-0140-03	PR-SW-FW-AE-0110-03	P18E未实现
+"彩信
+业务"	编辑彩信	是	NA	否	NA	PR-SW-PC-MMS-0150-01	NA	
+	发送彩信	是	是	否	否	PR-SW-PC-MMS-0150-02	PR-SW-FW-MMS-0120-01	
+	接收彩信	是	是	否	否	PR-SW-PC-MMS-0150-03	PR-SW-FW-MMS-0120-02	
+	阅读彩信	是	是	否	否	PR-SW-PC-MMS-0150-04	PR-SW-FW-MMS-0120-03	
+	删除彩信	是	是	否	否	PR-SW-PC-MMS-0150-05	PR-SW-FW-MMS-0120-04	
+	显示存储彩信数量	是	是	否	否	PR-SW-PC-MMS-0150-06	PR-SW-FW-MMS-0120-05	
+	彩信转发	是	是	否	否	PR-SW-PC-MMS-0150-07	PR-SW-FW-MMS-0120-06	
+	彩信排序	是	是	否	否	PR-SW-PC-MMS-0150-08	PR-SW-FW-MMS-0120-07	Mac未实现
+	彩信导出导入	是	是	否	否	PR-SW-PC-MMS-0150-09	PR-SW-FW-MMS-0120-08	"Mac未实现
+P18E未实现"
+	彩信搜索	是	是	否	否	PR-SW-PC-MMS-0150-10	PR-SW-FW-MMS-0120-09	"Mac未实现
+以国内项目11位号码，国际项目8位号码进行匹配。"
+	彩信定时发送	是	是	否	否	PR-SW-PC-MMS-0150-11	PR-SW-FW-MMS-0120-10	"Mac未实现
+P18E未实现"
+	彩信签名	是	NA	否	NA	PR-SW-PC-MMS-0150-12	NA	"Mac未实现
+P18E未实现"
+	彩信聊天	是	NA	否	NA	PR-SW-PC-MMS-0150-13	NA	"Mac未实现
+P18E未实现"
+语音业务	语音呼叫	是	是	否	否	PR-SW-PC-VF-0160-01	PR-SW-FW-VF-0130-01	
+	语音接听	是	是	否	否	PR-SW-PC-VF-0160-02	PR-SW-FW-VF-0130-02	Mac：最小化时来电只有提示音
+	语音挂断	是	是	否	否	PR-SW-PC-VF-0160-03	PR-SW-FW-VF-0130-03	
+	紧急呼叫	是	是	否	否	PR-SW-PC-VF-0160-04	PR-SW-FW-VF-0130-04	
+	来电显示	是	是	否	否	PR-SW-PC-VF-0160-05	PR-SW-FW-VF-0130-05	
+	通话时间计算	是	NA	否	NA	PR-SW-PC-VF-0160-06	NA	
+	并发功能	是	是	否	否	PR-SW-PC-VF-0160-07	PR-SW-FW-VF-0130-06	
+	耳机音量控制	是	NA	否	NA	PR-SW-PC-VF-0160-08	NA	
+	话筒音量控制	是	NA	否	NA	PR-SW-PC-VF-0160-09	NA	
+	回铃音的播放	是	NA	否	NA	PR-SW-PC-VF-0160-10	NA	
+通话记录	查看通话记录	是	NA	否	NA	PR-SW-PC-CR-0170-01	NA	
+	删除通话记录	是	NA	否	NA	PR-SW-PC-CR-0170-02	NA	
+	清空通话记录	是	NA	否	NA	PR-SW-PC-CR-0170-03	NA	Mac未实现
+	从通话记录发起语音呼叫	是	是	否	否	PR-SW-PC-CR-0170-04	PR-SW-FW-CR-0140-01	Linux未实现
+	从通话记录发短消息	是	是	否	否	PR-SW-PC-CR-0170-05	PR-SW-FW-CR-0140-02	Linux未实现
+	从通话记录发彩信	是	是	否	否	PR-SW-PC-CR-0170-06	PR-SW-FW-CR-0140-03	Linux未实现
+	从通话记录保存电话号码	是	是	否	否	PR-SW-PC-CR-0170-07	PR-SW-FW-CR-0140-04	"Linux未实现
+Mac未实现"
+	通话记录排序	是	NA	否	NA	PR-SW-PC-CR-0170-08	NA	Mac未实现
+	通话记录搜索	是	NA	否	NA	PR-SW-PC-CR-0170-09	NA	
+可视电话	可视电话呼叫功能	是	是	否	否	PR-SW-PC-VT-0180-01	PR-SW-FW-VT-0150-01	
+	可视电话挂断功能	是	是	否	否	PR-SW-PC-VT-0180-02	PR-SW-FW-VT-0150-02	
+	接听可视电话功能	是	是	否	否	PR-SW-PC-VT-0180-03	PR-SW-FW-VT-0150-03	
+	通话时间显示	是	NA	否	NA	PR-SW-PC-VT-0180-04	NA	
+	耳机音量控制	是	NA	否	NA	PR-SW-PC-VT-0180-05	NA	"Linux未实现
+Mac未实现"
+	话筒音量控制	是	NA	否	NA	PR-SW-PC-VT-0180-06	NA	"Linux未实现
+Mac未实现"
+	并发功能	是	是	否	否	PR-SW-PC-VT-0180-07	PR-SW-FW-VT-0150-04	
+	可视电话来电号码显示	是	是	否	否	PR-SW-PC-VT-0180-08	PR-SW-FW-VT-0150-05	
+	拨打可视电话图像显示	是	NA	否	NA	PR-SW-PC-VT-0180-09	NA	
+	接听视频电话图像显示	是	NA	否	NA	PR-SW-PC-VT-0180-10	NA	
+	视频设备选择	是	NA	否	NA	PR-SW-PC-VT-0180-11	NA	"Linux未实现
+Mac未实现"
+	本端图像的隐藏或替换	是	NA	否	NA	PR-SW-PC-VT-0180-12	NA	"Linux未实现
+Mac未实现"
+	回铃音的播放	是	NA	否	NA	PR-SW-PC-VT-0180-13	NA	Mac未实现
+WiFi接入管理	网络连接设置	否	NA	否	NA	PR-SW-PC-AM-0190-01	NA	
+	连接WiFi网络	否	NA	否	NA	PR-SW-PC-AM-0190-02	NA	
+	断开WiFi网络	否	NA	否	NA	PR-SW-PC-AM-0190-03	NA	
+	增加WiFi网络配置文件	否	NA	否	NA	PR-SW-PC-AM-0190-04	NA	
+	查找AP	否	NA	否	NA	PR-SW-PC-AM-0190-05	NA	
+	编辑WiFi网络配置文件	否	NA	否	NA	PR-SW-PC-AM-0190-06	NA	
+	删除WiFi网络配置文件	否	NA	否	NA	PR-SW-PC-AM-0190-07	NA	
+	设置默认WiFi网络配置文件	否	NA	否	NA	PR-SW-PC-AM-0190-08	NA	
+	WiFi信号强度显示	否	NA	否	NA	PR-SW-PC-AM-0190-09	NA	
+	WiFi连网记录	否	NA	否	NA	PR-SW-PC-AM-0190-10	NA	
+LBS业务	GPS信息显示	否	否	否	否	PR-SW-PC-LBS-0200-01	NA	P18E未实现
+	空口协议支持	否	否	否	否	NA	PR-SW-FW-LBS-0160-01	P18E未实现
+	NMEA协议支持	否	否	否	否	NA	PR-SW-FW-LBS-0160-02	P18E未实现
+广告卡业务	广告卡业务	否	否	否	否	PR-SW-PC-AD-0200	PR-SW-FW-AD-0170	P18E未实现
+其它功能（包含新增功能）	UI软件名称	是	NA	是	NA	PR-SW-PC-OF-0210-01	NA	
+	UI界面	是	NA	是	NA	PR-SW-PC-OF-0210-02	NA	
+	托盘菜单功能	是	NA	是	NA	PR-SW-PC-OF-0210-03	NA	"打开：Windows
+关闭：Mac、Linux（系统不支持）"
+	离线	是	是	是	是	PR-SW-PC-OF-0210-04	PR-SW-FW-OF-0180-01	P10A \P18D\P82F平台不支持
+	上线	是	是	是	是	PR-SW-PC-OF-0210-05	PR-SW-FW-OF-0180-02	P10A \P18D\P82F平台不支持
+	看门狗功能	NA	是	NA	是	NA	PR-SW-FW-OF-0180-03	P18E未实现
+	Wlan UE管理和EAP-SIM 鉴权	否	否	否	否	PR-SW-PC-OF-0210-06	PR-SW-FW-OF-0180-04	P18E未实现，定制功能
+	销量统计支持	NA	是	NA	否	NA	PR-SW-FW-OF-0180-05	通用版本支持销量统计功能但默认关闭。针对国内发货时，默认打开销量统计功能；针对国外发货时，默认不打开销量统计功能。
+	无ZTELogo版本支持	否	否	否	否	PR-SW-PC-OF-0210-07	PR-SW-FW-OF-0180-06	定制功能
+	SIM卡兼容性	NA	是	NA	是	NA	PR-SW-FW-OF-0180-07	
+	支持IPv6	是	是	是	是	PR-SW-PC-OF-0210-08	PR-SW-FW-OF-0180-08	
+	死机重启功能	NA	是	NA	是	NA	PR-SW-FW-OF-0180-08	
+	GPL版权声明 	是	是	是	是		PR-SW-FW-OF-0180-09	
+驱动需求	驱动对操作系统支持	是	NA	是	NA	PR-SW-PC-DR-1010	NA	"打开：Windows、Mac
+关闭：Linux"
+	操作系统下驱动通过认证	是	NA	是	NA	PR-SW-PC-DR-1020	NA	"打开：Windows、Mac
+Linux系统的驱动无需认证"
+	Modem口驱动支持	是	是	是	是	PR-SW-PC-DR-1030	PR-SW-FW-DR-1010	
+	Diag口驱动支持	是	是	是	是	PR-SW-PC-DR-1040	PR-SW-FW-DR-1020	
+	NEMA口驱动支持	是	是	是	是	PR-SW-PC-DR-1050	PR-SW-FW-DR-1030	
+	VOUSB口驱动支持	是	是	否	否	PR-SW-PC-DR-1060	PR-SW-FW-DR-1040	
+	NDIS口驱动支持	是	是	否	否	PR-SW-PC-DR-1070	PR-SW-FW-DR-1050	
+	PC/SC驱动和sim reader设备扩展	否	否	否	否	PR-SW-PC-DR-1080	PR-SW-FW-DR-1060	定制功能
+性能需求	初始化时间	是	是	是	是	PR-SW-PC-PI-2010	PR-SW-FW-PI-2010	
+	上网拨号成功率	是	是	是	是	PR-SW-PC-PI-2020	PR-SW-FW-PI-2020	
+安全性需求	安全性需求	是	是	是	是	安全性需求	安全性需求	
+质量属性需求	无缺陷性需求	是	是	是	是	PR-SW-PC-QR-3010	PR-SW-FW-QR-3010	
+	健壮性需求	是	是	是	是	PR-SW-PC-QR-3020	PR-SW-FW-QR-3020	
+	可用性需求	是	是	是	是	PR-SW-PC-QR-3030	PR-SW-FW-QR-3030	
+	平均无故障时间MTBF	是	是	是	是	PR-SW-PC-QR-3040	PR-SW-FW-QR-3040	
+	操作系统引起的故障	是	是	是	是	PR-SW-PC-QR-3050	PR-SW-FW-QR-3050	
+	数据一致性需求	是	是	是	是	PR-SW-PC-QR-3060	PR-SW-FW-QR-3060	
+	软件维护需求	是	是	是	是	PR-SW-PC-QR-3070	PR-SW-FW-QR-3070	
+	代码可读性需求	是	是	是	是	PR-SW-PC-QR-3080	PR-SW-FW-QR-3080	
+	可升级性需求	是	是	是	是	PR-SW-PC-QR-3090	PR-SW-FW-QR-3090	
+	硬件独立性	是	是	是	是	PR-SW-PC-QR-3100	PR-SW-FW-QR-3100	
+	软件独立性	是	是	是	是	PR-SW-PC-QR-3110	PR-SW-FW-QR-3110	
+	接口标准化需求	是	是	是	是	PR-SW-PC-QR-3120	PR-SW-FW-QR-3120	
+	功能扩展性需求	是	是	是	是	PR-SW-PC-QR-3130	PR-SW-FW-QR-3130	
+	消息跟踪需求	是	是	是	是	PR-SW-PC-QR-3140	PR-SW-FW-QR-3140	
+	调试跟踪需求	是	是	是	是	PR-SW-PC-QR-3150	PR-SW-FW-QR-3150	
+	可分解性需求	是	是	是	是	PR-SW-PC-QR-3160	PR-SW-FW-QR-3160	
+	生产测试性需求	是	是	是	是	PR-SW-PC-QR-3170	PR-SW-FW-QR-3170	
+(U)SIM卡外部接口	(U)SIM卡初始化	NA	是	NA	是	NA	PR-SW-FW-EI-4010-01	
+	向(U)SIM卡发送指令	NA	是	NA	是	NA	PR-SW-FW-EI-4010-02	
+其他需求	模块化需求	是	是	是	是	PR-SW-PC-OR-4010	PR-SW-FW-OR-5010	
+	设计与实现上的限制	是	是	是	是	PR-SW-PC-OR-4020	PR-SW-FW-OR-5020	对具体编程语言、操作系统的支持
+	频段支持	NA	是	NA	是	NA	PR-SW-FW-OR-5030	具体以实际产品需求为准
+	执行标准	是	是	是	是	PR-SW-PC-OR-4030	PR-SW-FW-OR-5040	"3GPP：
+WCDMA R99   
+HSDPA R5
+HSUPA R6
+HSPA+ R7"
+	语种相关的国际化需求	是	NA	是	NA	PR-SW-PC-OR-4040	NA	
+	动态语言切换	是	NA	否	NA	PR-SW-PC-OR-4050	NA	
